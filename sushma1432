@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h>janu</h>
+<p id="hello">sushma </p>
+<p id="good">janu</p>
+<script> 
+var result=document.getElementsByTagName("*");
+document.write(result);
+console.log(result);
+</script>
+
+</body>
+</html>
