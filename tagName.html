@@ -6,10 +6,15 @@
 </head>
 <body>
     <h>janu</h>
-<p id="hello">sushma </p>
+<p id="hello">sushma
+    <span>Hi</span>
+<em>world</em>
+<span>bye</span> 
+</p>
 <p id="good">janu</p>
 <script> 
-var result=document.getElementsByTagName("*");
+var getspan=document.getElementById("hello");
+var result=getspan.getElementsByTagName("*")
 document.write(result);
 console.log(result);
 </script>
